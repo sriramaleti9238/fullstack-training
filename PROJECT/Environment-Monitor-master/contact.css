@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    
+}
+body{
+  background-color:white;
+}
+.menu{
+    max-width: 300px;
+    margin: 100px;
+    margin-top:70px;
+    margin-left:40px;
+    margin-bottom:70px;
+    background-color:tomato;
+    font-size:10px;
+    font-family:serif;
+    padding-bottom:30px;
+    padding-top:30px;
+    
+   
+}
+div{
+  padding-left:40px;
+  padding-top:60px;
+  font-size:15px;
+}
+h{
+  backround-color:lightgray;
+}

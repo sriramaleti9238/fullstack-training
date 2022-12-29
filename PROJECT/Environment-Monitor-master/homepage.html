@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+    <script src="http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+    <script src="homepage.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="homepage.html" class="active">Home</a>
+            <a href="contact.html">Contact</a>
+            
+          </div>
+
+        <div class="main" >
+            <img src="tree.png"
+            style="width:250px; height:250px;"
+            align="center">
+            <h style="text-align:center"<q>UNITE TO MAKE</q></h>
+            <h style="text-align:center"<q> PLANET EARTH</q></h>
+            <h style="text-align:center"<q></q> POLLUTION FREE</q></h>
+            <p style="color:rgb(227, 10, 71);font-size:20px; text-align:center;font-family:'Times New Roman', Times, serif;">
+               Date and Time is <span style="color:rgb(209, 15, 15);font-size:20px; font-family: 'Times New Roman', Times, serif;" id="time"></span> Contact Number 704511223
+            </p>
+        </div>
+        <div>
+            <marquee behavior="scroll" style="color:rgb(55, 192, 92);font-size:20px; text-decoration:underline; font-family: 'Times New Roman', Times, serif;">
+               LIVE STATS ABOUT SOUND AND AIR POLLUTON FOR EACH AREA IS AVAILABLE BELOW
+             </marquee>
+        </div><br>
+        
+        <div>
+              <center>
+                  <ul>
+                   <li><P style="font-size:20px;font-family: 'Times New Roman', Times, serif;">live data that is uploaded from area1<a href="index.html">area1data</a></P></li>
+                   <li><P style="font-size:20px;font-family: 'Times New Roman', Times, serif;">live data that is uploaded from area2<a href="index.html">area2data</a></P></li>
+                   <li><P style="font-size:20px;font-family: 'Times New Roman', Times, serif;">live data that is uploaded from area3<a href="index.html">area3data</a></P></li>
+                   <li><P style="font-size:20px;font-family: 'Times New Roman', Times, serif;">live data that is uploaded from area4<a href="index.html">area4data</a></P></li>
+                  </ul>
+              </center>
+        </div>
+        <div class="top">
+            <div style="width:45%; float: right; padding: 2px; height: auto">
+                <canvas id="myCanvas" width="300" height="250"/>
+            </div>
+            <div class="textDisplay" style="width:45%; float: left; height: auto">
+                <h4 class="date"></h4>
+                <h4 class="day"></h4>
+                <h4 class="time"></h4>
+                <h4 class="tempOne"></h4>
+                <h4 class="pressure"></h4>
+                <h4 class="altitude"></h4>
+                <h4 class="humidity"></h4>
+                <h4 class="tempTwo"></h4>
+                <h4 class="sound"></h4>
+                <h4 class="alert"></h4>
+            </div>    
+        </div>    
+    </header>
+    
+  
+   
+    
+</body>
+</html>
