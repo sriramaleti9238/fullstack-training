@@ -1,0 +1,403 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 19
+Computer fundamentals.
+Programming languages - History & Evolution
+Programming Paradigms.
+Linux Commands
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 20
+Introduction to SDLC, Agile vs Waterfall, Agile/Scrum Concepts
+Sprint, Backlogs, Scrum Ceremonies.
+Git flow & Branching strategies
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 21
+Data, Information, DB, DBMS, RDBMS
+ER Diagram - Quick Intro
+Relational Algebra.
+Normalization
+Interact with MySQL DB
+SQL Intro, categorization into DDL, DML, DQL, DCL, TCL
+DDL-Database & Tables (Entities)
+Attributes and Rows
+Cardinality Ratios
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 22
+Column and its data types
+Constraints (PRIMARY, UNIQUE, CHECK, NOT NULL, FORIEGN KEY)
+Referential Integrity
+Table relationships: 1-1,1-m,m-1,m-m
+ALTER, DROP Tables
+Comments.
+DML - INSERT, UPDATE, DELETE
+Bulk INSERT records.
+Using WHERE conditions (AND , OR, NOT, LIKE with wildcards, IN, BETWEEN, IS NULL etc) & Relational Operators.
+FROM Clause
+DELETE & TRUNCATE Table.
+DQL-SELECT clause 
+Column & Table alias
+*, DISTINCT, SELECT Without FROM.
+Arithmetic/Comparison Operators.
+Concatenation operator (`||`)
+using SET sql_mode='PIPES_AS_CONCAT';
+ORDER BY clause,
+LIMIT,
+Predefined Aggregate functions(MIN, MAX, COUNT, AVG, SUM) 
+GROUP By clause
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 23
+HAVING clause
+INSERT INTO SELECT
+SET Operations - 
+UNION, UNION ALL, NTERSECT, 
+EXCEPT using MySQL 8.0.31
+DQL-JOINS & All Types (Cross, Inner, Left, Right, Full, Self)
+Using IN, NOT IN.
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 26
+ACID Properties of Transactions
+TCL- COMMIT, ROLLBACK, SAVEPOINT. 
+DCL - GRANT, REVOKE, WITH OPTION
+CREATE OR REPLACE/DROP VIEWS, Advantages of views
+CREATE/ALTRE/DROP FUNCTION & PROCEDURES
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 28
+CREATE/DROP TRIGGERS Advantages of triggers.
+CREATE/DROP INDEX, Advantages of indexes
+Types of indexes
+Subqueries/Nested Queries.
+Corelated Subqueries
+IN, NOT IN, ANY, ALL, EXISTS operators
+TCL- COMMIT, ROLLBACK, SAVEPOINT. 
+Intro to ISOLATION LEVELS (Table Lock and Row locks).
+
+
+>>>>>>>>>>>>>>> SQL
+TCL- COMMIT, ROLLBACK, SAVEPOINT. 
+Intro to ISOLATION LEVELS (Table Lock and Row locks).
+
+read commited
+repeatable read
+read uncommited
+serializable
+
+Subqueries/Nested Queries ANY, ALL, EXISTS operators.
+CREATE/DROP TRIGGERS Advantages of triggers.
+
+CREATE/DROP INDEX, Advantages of indexes
+Types of indexes
+
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>> Java Day 1 Topics
+Introduction to Java
+Features of Java - Java Buzzwords
+Object Oriented Programming
+Pillars of OOP
+JDK, JRE, JVM
+JDK installation
+Path: JAVA_HOME & Path Variable
+First Java Program: HelloWorld
+Detailing of first Java Program
+System.out.println - detailing
+Java Program execution order
+Javac compiler & Java launcher
+Multiple classes in source file
+Comments
+Keywords
+Literals
+Identifiers
+Variables
+Naming conventions
+Data types 
+Stack and Heap
+Java Packages 
+User defined Packages
+Arithmetic Operators
+BODMAS
+Expressions
+Unary Operators
+Assignment Operator
+Arithmetic Assignment Operators
+Relational Operators
+Logical Operators
+Ternary Operator
+Bitwise Operators
+Shift Operators
+instanceof operator
+Increment/Decrement operator
+Java statement and termination operator
+Variables - naming standards - primitive, reference
+Variable declaration and initialization
+Control Flow Statements
+if statement and single line if statement
+if-else-conditional-statement
+Nested if statement
+Ternary operator
+While loop
+For loop
+Do…while loop
+
+>>>>>>>>>>>>>>>>>>>> Java Day 2 Topics
+Menu driven Application using do..while
+Introduction to IDE vs Basic Editor
+Variable Scopes
+Variable types - parameter, local
+Block statements
+Constants
+Imports package
+Read from console (Scanner)
+Switch statements (String in switch statement)
+Break, continue and return statement
+Command line arguments (array / var args)
+Arrays, Var-args, for-each loops
+Overloading methods
+Array manipulation using for loop & enhanced for loop
+Multidimensional arrays
+Class vs Object
+Class declaration
+Member variables
+Access Modifiers
+Class members (static)
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 2 
+COMPNAY HOLIDAY
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 3
+1st Half.
+Athira Induction.
+Infra Projector Furniture Setup.
+
+2nd half:
+Agil Live Standup
+static import
+Non-access modifiers  (static, final)
+Methods and Parameters
+Objects
+Constructors
+Overloading Costructor
+Variable types - instance and class
+Default values instance variables
+Declaration, Instantiation, initialization
+Accessing object fields and methods
+Instance and class member access by each other
+Usage of this keyword - in variable and this constructor
+POJO/Model Classes in java
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 4
+1st Half:
+initialization block (non-static using {....})
+static initialization block
+Static block to initialize static variables
+Parameters - primitive type, reference type
+Method returning value - primitive and reference type
+Call by Value, Call by Reference 
+String API
+String literal and object
+String immutability
+String methods & method chaining
+String Object creation
+String Object initialization - invoking constructor
+String Object invocation - using different constructor
+
+2nd Half:
+PEP session
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 5 
+1st Half: 1-1 Discussion
+2nd Half: 1Hour 1-1
+StringBuffer,StringBuilder
+Wrapper Classes
+Wrapper Objects - Boxing and Unboxing
+Wrapper object methods
+Number types to String conversion & vice versa
+Type conversion - widening and narrowing
+Casting (Explicit & Implicit)
+Inheritance - Object Hierarchy
+instanceof keyword
+Casting objects using sub and super class
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 6
+1st Half: QC
+2nd Half:
+Overriding and hiding methods (using static)
+Polymorphism and Super keyword
+Final class and methods
+Non-access modifiers (abstract)
+Abstract Methods
+Abstract Classes
+Interfaces
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 9
+Abstract class vs Interface
+Interfaces and its constants & methods - abstract, static and default
+Implementing and extending interfaces - Diamond Problem
+Interface type reference
+Inner Class and Anonymous Classes
+Shadowing fields/variable & Variable Hiding
+Object class
+Object class and its methods to all types
+equals(), == & hashCode(), toString() methods
+Garbage Collection (with finalization)
+
+2nd half: Portfolio Orientation Session.
+
+>>>>>>>>>>>>>>>>>>>> 10
+Exceptions
+Exception Hierarchy
+Checked vs Unchecked Exceptions
+Exception Handling or Declarations
+try, catch, finally, throw and throws
+Multi-catch blocks
+Error
+Stacktrace and logging API
+Custom Exceptions
+Collection API
+Collection without generics Intro
+Lists
+ArrayList and LinkedList
+Sets
+Set Operations
+HashSet and TreeSet
+Comparator interface
+Comparable Interface
+Queues
+ArrayDeque and PriorityQueue
+Maps
+Basic collection algorithms (in Collections class)
+Iterator interface
+Iterable Interface
+Generics
+
+>>>>>>>>>>>>>>>>>>>> 11
+Generics For Class Members
+Generics Method Argument
+Bounded Generic Type (extends, &)
+Wildcard Generic Type (?, ? extends)
+Process and Threads
+Multithreading
+Runnable Interface
+
+2nd Half: Trainer 1-1
+
+>>>>>>>>>>>>>>>>>>>> 12
+Thread Class
+Runnable interface
+States of a Thread
+Creating Thread and making it to Sleep
+Synchronized methods and statements
+Synchronization (Non-access modifiers - synchronized, volatile)
+Producer / Consumer problem
+Deadlock & Starvation - Quick Info
+Enum type
+
+2nd Half: QC
+
+
+>>>>>>>>>>>>>>>>>>>> 13
+I/O - Byte Stream (File Input & Output Stream) and Character Stream (File Reader & Writer - read and readLine method)
+System.in and System.err and System.out
+Path - relative and absolute path
+File and Directory and Path Separator
+Try-with-resources
+Buffered Input and Output Stream - Buffered Reader and Writer - flush method
+File I/O: FileInputStream/FileReader/FileWriter
+Reading and Writing files
+File copy and move operations 
+Random Access File
+Serialization
+Non-access modifiers (transient, native, strictfp)
+Accessing Environment variables
+
+
+>>>>>>>>>>>>>>>>>>>> 17
+Introduction to Maven
+Maven Lifecycles
+******************************************************************************************************
+Validate: This step validates if the project structure is correct. For example – It checks if all the dependencies have been downloaded and are available in the local repository.
+Compile: It compiles the source code, converts the .java files to .class and stores the classes in target/classes folder.
+Test: It runs unit tests for the project.
+Package: This step packages the compiled code in distributable format like JAR or WAR.
+Integration test: It runs the integration tests for the project.
+Verify: This step runs checks to verify that the project is valid and meets the quality standards.
+Install: This step installs the packaged code to the local Maven repository.
+Deploy: It copies the packaged code to the remote repository for sharing it with other developers.
+Maven follows a sequential order to execute the commands where if you run step n, all steps preceding it (Step 1 to n-1) are also executed. For example – if we run the Installation step (Step 7), it will validate, compile, package and verify the project along with running unit and integration tests (Step 1 to 6) before installing the built package to the local repository.
+
+Maven Commands:
+
+mvn clean: Cleans the project and removes all files generated by the previous build.
+mvn compile: Compiles source code of the project.
+mvn test-compile: Compiles the test source code.
+mvn test: Runs tests for the project.
+mvn package: Creates JAR or WAR file for the project to convert it into a distributable format.
+mvn install: Deploys the packaged JAR/ WAR file to the local repository.
+mvn deploy: Copies the packaged JAR/ WAR file to the remote repository after compiling, running tests and building the project.
+*************************************************************************************************
+Maven Repositories
+Project object model (POM)
+Project Coordinates
+Commands
+Reading Keys from Property file contents
+Classpath
+Handson on Maven
+
+
+Interfaces of JDBC
+JDBC driver configuration in POM.xml
+Properties file
+try-with-resources usage
+Setting up the Database Driver
+Connection Interface
+SQL Exception
+Statement & Prepared Statements
+Getting state and error code from SQLException
+SQL Warnings
+Callable Statement
+Accessing Stored Procedures
+Design Pattern: Data Access 
+Implemntation of DAO object
+Creational: Factory
+Creational: Singleton
+
+
+
+>>>>>>>>>>>>>>>>>>>> 18
+Regular expression basics - with few basic input validation using Pattern and Matches
+Date and Time - LocalDate, LocalTime & LocalDateTime
+Overview of Logging
+Logging Levels
+Setting Logging Threshold
+Intro to TDD and Unit Testing
+JUnit Annotations
+Assert Methods
+Task: Create unit test cases for project and implement logging
+
+
+>>>>>>>>>>>>>>>>>>>> 19
+P0-Foundational Project
+Recap of jUnit & Logging
+Doubt Solving
+
+
+>>>>>>>>>>>>>>>>>>>> 20
+P0-Foundational Project Recording
+2nd Half: Trainer 1-1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
